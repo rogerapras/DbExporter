@@ -24,7 +24,8 @@ class DbExportHandlerServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->package('nwidart/db-exporter');
+        //$app['config']->set('imagecache', __DIR__.'/../../../../imagecache/src/config');
+        //$this->package('nwidart/db-exporter');
     }
 
     public function register()
